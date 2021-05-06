@@ -1,0 +1,43 @@
+*
+{
+	padding: 0;
+	margin: 0;  
+	box-sizing: sans-serif;
+}
+body
+{
+	background-image: url(style.jpg)
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-bar
+{
+	background: rgb(0, 100, 0);
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li
+{
+	width: 120;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.marquee marquee
+{
+	background: rgb(0, 100, 0);
+}
+.marquee strong p
+{
+	color: #fff;
+}
